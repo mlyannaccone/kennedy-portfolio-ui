@@ -1,1 +1,42 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: Minangkabau;
+  src: url(../src/assets/Minangkabau.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: bubble;
+  src: url(../src/assets/bubble.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: monospacefont;
+  src: url(../src/assets/monospacefont.ttf) format("truetype");
+}
+
+h1, h2, h3, h4, h5, h6 {
+  /* font-family: Minangkabau; */
+  font-family: bubble;
+  color: white;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: .2px;
+}
+
+ul {
+  font-size: 50px;
+  font-family: monospacefont;
+  color: darkred;
+}
+
+
+h1 {
+  font-size: 100px;
+  letter-spacing: 10px;
+  margin: 10px;
+}
+
+html, body {
+  margin: 0;
+  background-color: lightblue;
+}
+
+

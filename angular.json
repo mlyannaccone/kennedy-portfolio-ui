@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "kennedy-portfolio"
+    }
+  },
+  "defaultProject": "kennedy-portfolio",
+  "cli": {
+    "analytics": "eb94819b-edb1-4d99-ac72-9640340e7249"
+  }
 }
